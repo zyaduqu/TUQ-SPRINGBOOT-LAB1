@@ -8,24 +8,24 @@ public class Main {
 
     public static void main(String[] args) {
         System.out.println("Welcome to lab1");
-//        question1();
-//        question2();
-//        question3();
-//        question4();
-//        question5();
-//        question6();
-//        question7();
-//        question8();
-//        question9();
-//        question10();
-//        question11();
-//        question12();
-//        question13();
-//        question14();
-//        question15();
-//        question16();
-//        question17();
-//        question18();
+        question1();
+        question2();
+        question3();
+        question4();
+        question5();
+        question6();
+        question7();
+        question8();
+        question9();
+        question10();
+        question11();
+        question12();
+        question13();
+        question14();
+        question15();
+        question16();
+        question17();
+        question18();
     }
 
     static void question1(){
@@ -85,8 +85,10 @@ public class Main {
         double sum = 0;
         double counter=0;
 
+        scanner.nextLine();
         while (true){
             System.out.print("\nEnter an integer (or write EXIT to stop):");
+
             input = scanner.nextLine();
             if (input.equalsIgnoreCase("exit")) {
                 break;
@@ -95,7 +97,7 @@ public class Main {
             sum +=num1;
             counter++;
         }
-        System.out.println("The average is: "+(double)(sum/counter));
+        System.out.println("\nThe average is: "+(double)(sum/counter));
 
     }
 
@@ -129,6 +131,7 @@ public class Main {
                 Question 6:
                 This program will\s
                 reverse each word you enter""");
+        scanner.nextLine();
 
 
         while (true){
